@@ -224,6 +224,8 @@ public class PlaylistManagerEditor extends HBox
         if(mButtonBox == null)
         {
             mButtonBox = new VBox();
+            mButtonBox.setMinWidth(100);
+            mButtonBox.setMaxWidth(100);
             mButtonBox.setSpacing(10.0);
             mButtonBox.setPadding(new Insets(5, 5, 5, 10));
             mButtonBox.setAlignment(Pos.TOP_CENTER);
